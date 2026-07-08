@@ -30,10 +30,31 @@ Open http://localhost:8080 in your browser.
 
 ## Deploy to GitHub Pages
 
-1. Create repo named `Murali-Madevan.github.io` on GitHub
-2. Push this folder to the `main` branch
-3. Settings → Pages → Source: **Deploy from branch** → `main` / `/ (root)`
-4. Site goes live at https://Murali-Madevan.github.io/
+Your user site URL is **https://murali-madevan.github.io/** — the repo name must match your GitHub username exactly.
+
+### Important: correct repo name
+
+| Repo name | Result |
+|-----------|--------|
+| `Murali-Madevan.github.io` | ✅ `https://murali-madevan.github.io/` |
+| `muralimadevan.github.io` | ❌ Project page only — **not** your root user site |
+
+If you already have `muralimadevan.github.io`, rename it: **Settings → General → Repository name → `Murali-Madevan.github.io`**
+
+### Steps
+
+1. Create (or rename to) repo **`Murali-Madevan.github.io`** on GitHub
+2. Push this folder:
+   ```powershell
+   cd "C:\Users\KK COMPUTERS\OneDrive\Documents\Murali-Madevan.github.io"
+   git remote add origin https://github.com/Murali-Madevan/Murali-Madevan.github.io.git
+   git push -u origin main
+   ```
+3. **Settings → Pages → Build and deployment**
+   - Source: **Deploy from a branch**
+   - Branch: **`main`** / **`/ (root)`**
+   - Save
+4. Wait 1–3 minutes, then open https://murali-madevan.github.io/
 
 ## Customize
 
