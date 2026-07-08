@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Murali Madevan — Machine Learning & Python Developer portfolio." />
+  <title>Murali Madevan | ML & Python Developer</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#home" class="nav__logo">Murali<span>.</span></a>
+
+      <ul class="nav__menu" id="nav-menu">
+        <li><a href="#home" class="nav__link active">Home</a></li>
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#experience" class="nav__link">Experience</a></li>
+        <li><a href="#projects" class="nav__link">Projects</a></li>
+        <li><a href="#skills" class="nav__link">Skills</a></li>
+        <li><a href="#achievements" class="nav__link">Achievements</a></li>
+        <li><a href="#contact" class="nav__link">Contact</a></li>
+      </ul>
+
+      <button class="nav__toggle" id="nav-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero section" id="home">
+      <div class="hero__bg"></div>
+      <div class="container hero__container">
+        <p class="hero__greeting fade-up">Welcome to my portfolio!</p>
+        <h1 class="hero__title fade-up">
+          <span class="hero__quote">"Results-focused"</span>
+          <span class="hero__role">Machine Learning Engineer</span>
+        </h1>
+        <p class="hero__subtitle fade-up">Python Developer · AI & NLP Enthusiast</p>
+
+        <div class="hero__stats fade-up">
+          <div class="stat">
+            <span class="stat__number" data-target="2">0</span>
+            <span class="stat__label">Years of experience</span>
+          </div>
+        </div>
+
+        <div class="hero__actions fade-up">
+          <a href="#projects" class="btn btn--primary">View My Work</a>
+          <a href="assets/resume.pdf" class="btn btn--outline" target="_blank" rel="noopener">Resume</a>
+        </div>
+
+        <div class="hero__social fade-up">
+          <a href="https://github.com/Murali-Madevan" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/murali-madevan" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 114.126 0 2.063 2.063 0 01-2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </a>
+          <a href="mailto:muralimadevan82@gmail.com" aria-label="Email">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section__title fade-up">About Me</h2>
+        <div class="about__grid">
+          <div class="about__image fade-up">
+            <img src="assets/profile.svg" alt="Murali Madevan" width="320" height="320" />
+          </div>
+          <div class="about__content fade-up">
+            <p>
+              Passionate <strong>Machine Learning Engineer</strong> and Python developer with hands-on
+              experience building AI-powered applications, REST APIs, and data-driven solutions.
+            </p>
+            <p>
+              I specialize in NLP pipelines, deep learning models, and production-ready backends using
+              FastAPI, scikit-learn, and TensorFlow. My recent work includes an AI resume analysis platform
+              with Docker, CI/CD, and Gemini integration.
+            </p>
+            <p>
+              Always eager to learn new technologies, improve problem-solving skills, and contribute to
+              scalable, user-friendly software in a dynamic development environment.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section section--alt" id="experience">
+      <div class="container">
+        <h2 class="section__title fade-up">Experience</h2>
+        <div class="timeline">
+          <article class="timeline__item fade-up">
+            <div class="timeline__marker"></div>
+            <div class="timeline__card">
+              <h3>Independent Developer / Open Source</h3>
+              <p class="timeline__meta">2024 – Present · Remote</p>
+              <ul>
+                <li>Built production-grade AI Resume Matcher with FastAPI, Streamlit, Docker, and GitHub Actions CI/CD.</li>
+                <li>Designed layered architecture (API → services → domain) with Pydantic validation and structured logging.</li>
+                <li>Implemented TF-IDF NLP scoring, skill-gap analysis, and Google Gemini integration for AI insights.</li>
+                <li>Deployed containerized services with health checks and environment-based configuration.</li>
+              </ul>
+            </div>
+          </article>
+          <article class="timeline__item fade-up">
+            <div class="timeline__marker"></div>
+            <div class="timeline__card">
+              <h3>ML & Web Development Projects</h3>
+              <p class="timeline__meta">2023 – Present · Personal Projects</p>
+              <ul>
+                <li>Developed Skin Cancer Prediction portal using Flask, TensorFlow CNN models, and MySQL.</li>
+                <li>Achieved ~92% classification accuracy with optimized preprocessing and data augmentation.</li>
+                <li>Built responsive frontends with Bootstrap and integrated RESTful APIs for model inference.</li>
+                <li>Used Git for version control and followed clean coding practices across all projects.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 class="section__title fade-up">Projects</h2>
+        <div class="projects__grid">
+          <article class="project-card fade-up" data-project="resume-matcher">
+            <div class="project-card__icon">🤖</div>
+            <h3>AI Resume Matcher</h3>
+            <p class="project-card__stack">FastAPI · Streamlit · scikit-learn · Gemini · Docker</p>
+            <p>Production-grade resume analysis platform with NLP scoring, skill-gap detection, AI rewriting, and PDF export. Includes CI/CD and containerized deployment.</p>
+            <div class="project-card__tags">
+              <span>Python</span><span>FastAPI</span><span>NLP</span><span>Docker</span>
+            </div>
+            <button class="project-card__link" type="button">View full →</button>
+          </article>
+
+          <article class="project-card fade-up" data-project="skin-cancer">
+            <div class="project-card__icon">🔬</div>
+            <h3>Skin Cancer Prediction</h3>
+            <p class="project-card__stack">Flask · TensorFlow · Bootstrap · MySQL</p>
+            <p>AI-powered web portal for early-stage skin cancer detection using deep learning. Achieved 92% model accuracy with optimized patient record management.</p>
+            <div class="project-card__tags">
+              <span>TensorFlow</span><span>Flask</span><span>CNN</span><span>MySQL</span>
+            </div>
+            <button class="project-card__link" type="button">View full →</button>
+          </article>
+
+          <article class="project-card fade-up" data-project="portfolio">
+            <div class="project-card__icon">🌐</div>
+            <h3>Personal Portfolio Website</h3>
+            <p class="project-card__stack">HTML · CSS · JavaScript</p>
+            <p>Responsive single-page portfolio with dark theme, scroll animations, project modals, and mobile-friendly navigation — hosted on GitHub Pages.</p>
+            <div class="project-card__tags">
+              <span>HTML5</span><span>CSS3</span><span>Vanilla JS</span>
+            </div>
+            <button class="project-card__link" type="button">View full →</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section section--alt" id="skills">
+      <div class="container">
+        <h2 class="section__title fade-up">Skills</h2>
+        <div class="skills__grid">
+          <div class="skills__group fade-up">
+            <h3>Languages</h3>
+            <div class="skills__tags">
+              <span>Python</span><span>JavaScript</span><span>SQL</span><span>HTML/CSS</span>
+            </div>
+          </div>
+          <div class="skills__group fade-up">
+            <h3>ML & AI</h3>
+            <div class="skills__tags">
+              <span>TensorFlow</span><span>scikit-learn</span><span>NLP</span><span>Deep Learning</span><span>Gemini API</span>
+            </div>
+          </div>
+          <div class="skills__group fade-up">
+            <h3>Backend & APIs</h3>
+            <div class="skills__tags">
+              <span>FastAPI</span><span>Flask</span><span>REST APIs</span><span>Pydantic</span>
+            </div>
+          </div>
+          <div class="skills__group fade-up">
+            <h3>Tools & DevOps</h3>
+            <div class="skills__tags">
+              <span>Git</span><span>GitHub Actions</span><span>Docker</span><span>MySQL</span><span>Streamlit</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Achievements -->
+    <section class="section" id="achievements">
+      <div class="container">
+        <h2 class="section__title fade-up">Achievements & Certifications</h2>
+        <div class="achievements__grid">
+          <article class="achievement-card fade-up">
+            <div class="achievement-card__icon">📄</div>
+            <h3>Research Publication</h3>
+            <p class="achievement-card__meta">IJRASET Journal · 2025</p>
+            <p>Published research on "Doctor-Patient Portal with Skin Cancer Prediction Using Deep Learning" — presented at an international conference on computing & communication technologies.</p>
+          </article>
+          <article class="achievement-card fade-up">
+            <div class="achievement-card__icon">🏆</div>
+            <h3>Smart India Hackathon</h3>
+            <p class="achievement-card__meta">Internal Round · 2023</p>
+            <p>Developed a prototype solution during Smart India Hackathon, focusing on real-world problem-solving and rapid application development under time constraints.</p>
+          </article>
+          <article class="achievement-card fade-up">
+            <div class="achievement-card__icon">✅</div>
+            <h3>Production Engineering</h3>
+            <p class="achievement-card__meta">Open Source · 2025</p>
+            <p>Refactored AI Resume Matcher to production standards with FastAPI architecture, Docker, CI/CD pipeline, automated tests, and comprehensive documentation.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section section--alt" id="contact">
+      <div class="container">
+        <h2 class="section__title fade-up">Get In Touch</h2>
+        <p class="contact__intro fade-up">I'm always open to discussing new projects, opportunities, or technical collaborations.</p>
+
+        <div class="contact__grid">
+          <div class="contact__info fade-up">
+            <h3>Contact Me</h3>
+            <ul>
+              <li><span>📍</span> Tamil Nadu, India</li>
+              <li><span>✉️</span> <a href="mailto:muralimadevan82@gmail.com">muralimadevan82@gmail.com</a></li>
+              <li><span>🔗</span> <a href="https://github.com/Murali-Madevan" target="_blank" rel="noopener">github.com/Murali-Madevan</a></li>
+              <li><span>💼</span> <a href="https://www.linkedin.com/in/murali-madevan" target="_blank" rel="noopener">LinkedIn Profile</a></li>
+            </ul>
+          </div>
+
+          <form class="contact__form fade-up" id="contact-form">
+            <h3>Send a Message</h3>
+            <div class="form__group">
+              <input type="text" name="name" placeholder="Your Name" required />
+            </div>
+            <div class="form__group">
+              <input type="email" name="email" placeholder="Your Email" required />
+            </div>
+            <div class="form__group">
+              <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--full">Send ➤</button>
+            <p class="form__note">Opens your email client with a pre-filled message.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Murali Madevan. Built with HTML, CSS & JavaScript.</p>
+    </div>
+  </footer>
+
+  <!-- Project Modal -->
+  <div class="modal" id="project-modal" aria-hidden="true">
+    <div class="modal__overlay" data-close></div>
+    <div class="modal__content">
+      <button class="modal__close" data-close aria-label="Close">&times;</button>
+      <h2 id="modal-title"></h2>
+      <p id="modal-subtitle" class="modal__subtitle"></p>
+      <div id="modal-body"></div>
+      <div class="modal__links" id="modal-links"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
